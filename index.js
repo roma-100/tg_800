@@ -4,8 +4,6 @@ require('dotenv').config();
 
 const token = process.env.TELEGRAM_BOT_TOKEN;
 
-const webAppUrl = 'https://wiki.art-timing.com/tmp/build'
-//const webAppUrl = 'https://redfred.ru/tmp/build'
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramApi(token, {polling: true});
